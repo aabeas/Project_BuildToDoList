@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> {{ pageTitle }} </title>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <!-- <div class="row"> -->
+          <div class="due-list">
+            <h1>{{ listTitle01 }}</h1>
+            {{#itemsDue}}
+              <input type="checkbox"><span>{{item}}</span><br/>
+            {{/itemsDue}}
+          </div>
+          <div class="done-list">
+            <h1>{{ listTitle02 }}</h1>
+            {{#itemsDone}}
+              <input type="checkbox"><span>{{item}}</span><br/>
+            {{/itemsDone}}
+          </div>
+        <!-- </div> -->
+      </div>
+    </form>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </body>
+</html>

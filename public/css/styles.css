@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+  /*font-size: 10px;*/
+}
+
+/*BREAKPOINTS
+
+smart  -- 320px -- 544px
+tablet -- 545px -- 768px
+laptop -- 769px -- + and up*/
+
+/*---------------- Break Code ----------------*/
+
+body {
+
+}
+
+.home-block {
+  font-size: 40px;
+  border: 20px solid black;
+  width: 40%;
+  background-color: orange;
+  margin-top: 80px;
+  margin-left: 30vw;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #FFFFFF;
+  color: orange;
+  cursor: pointer;
+}
+
+a {
+  font-size: 50px;
+  text-decoration: none;
+  border-style: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+.todo-list {
+list-style-type: none;
+padding-left: 0.5em;
+}
+
+span {
+font-size: 20px;
+margin-bottom: 1rem;
+}
+
+input[type=checkbox]:checked + span{
+text-decoration: line-through;
+}
+
+
+/*---------------- Break Code ----------------*/
+
+@media screen and (min-width: 545px) {}
+
+@media screen and (min-width: 769px) {}
